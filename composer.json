@@ -1,0 +1,14 @@
+{
+    "name": "internship/user-auth-profile",
+    "description": "User authentication and profile management using PHP, MongoDB, MySQL, Redis, AJAX",
+    "type": "project",
+    "require": {
+        "php": ">=8.2.1",
+        "mongodb/mongodb": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "backend/"
+        }
+    }
+}
