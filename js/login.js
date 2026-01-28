@@ -41,7 +41,7 @@ $("#loginBtn").click(function () {
                 localStorage.setItem("session_token", res.token);
                 window.location.href = "profile.html";
             }else{
-                 localStorage.setItem("session_token", res.token);
+                // localStorage.setItem("session_token", res.token);
                  alert(res.message);
             }
             
